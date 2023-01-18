@@ -30,18 +30,3 @@ CREATE TABLE students_classes
 
 
 
-
-
-INSERT INTO students
-(student_id, name, street, nr, postalcode, city, birth_date)
-VALUES
-    ('100', 'Albert Einstein', 'Mercer Street', 112, 8540, ' Princeton, New Jersey', '1879-03-14');
-
-INSERT INTO classes (class_id, building, floor, roomnumber)
-VALUES (1, 'GR', '1', 13);
-
-INSERT INTO students_classes (studentnumber, classnumner)
-VALUES (100, 1);
-
-
-
