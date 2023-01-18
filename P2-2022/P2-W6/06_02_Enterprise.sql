@@ -56,6 +56,6 @@ CREATE TABLE "FAMILYMEMBERS"
     birth_date   DATE CHECK ( birth_date BETWEEN '1950-03-20' AND '2018-01-01'),
     relationship VARCHAR(10)                                  NOT NULL,
     PRIMARY KEY (employee_id, name)
-)
+);
 
 
