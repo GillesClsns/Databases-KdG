@@ -45,7 +45,7 @@ WHERE NOT exists(
 
 -- EX. 12
 UPDATE employees
-SET parking_spot=NULL
+SET parking_spot = NULL
 WHERE employee_id IN ('999666666', '999887777');
 
 SELECT department_id
