@@ -48,7 +48,7 @@ ORDER BY sum(salary) DESC
 SELECT department_id, department_name
 FROM departments
 WHERE department_id =
-      (SELECT department_id FROM employees GROUP BY department_id ORDER BY sum(salary) DESC FETCH FIRST ROW ONLY)
+      (SELECT department_id FROM employees GROUP BY department_id ORDER BY sum(salary) DESC FETCH FIRST ROW ONLY);
 
 -- EX. 6
 SELECT *

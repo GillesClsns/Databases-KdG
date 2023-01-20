@@ -1,5 +1,5 @@
 --*************************************************
--- Exercises on data- and number functions
+-- Exercises on date and number functions
 --*************************************************
 
 -- EX. 1
